@@ -2275,3 +2275,29 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+  .instagram-media {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 10px 0 rgba(255, 255, 255, 0.15);
+    margin: 1px;
+    max-width: 540px;
+    min-width: 326px;
+    padding: 0;
+    width: 99.375%;
+    width: -webkit-calc(100% - 2px);
+    width: calc(100% - 2px);
+  }
+  #facebook .Embed,
+  ._aand,
+  .Content.EmbedFrame {
+    height: 300px !important;
+  }
+  .Embed .Header,
+  .Embed .HoverCard,
+  .Embed .Feedback,
+  .Embed .SocialProof,
+  .Embed .Footer {
+    display: none !important;
+  }
+  
