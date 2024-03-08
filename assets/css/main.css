@@ -2062,7 +2062,8 @@ button,
           font-size: 1.5rem;
           margin-left: -0.4375em; }
       body.is-preload #sidebar {
-        display: none; } }
+        display: none; } 
+      }
   @media screen and (max-width: 736px) {
     #sidebar .toggle {
       text-indent: 7.25em;
@@ -2315,7 +2316,22 @@ button,
   .Embed .Footer {
     display: none !important;
   }
-  .linkedStoryBoardSample {
-    height: 300px;
-    width: 538px;
+  @media screen and (max-width: 1440px) {}
+  @media screen and (max-width: 1024px) {
+    .posts article .linkedStoryBoardSample .image img {
+      width: 415px !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .posts article .linkedStoryBoardSample .image img {
+      width: 324px !important;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .posts article .linkedStoryBoardSample .image img {
+      width: 324px !important;
+    }
+    #banner .image img {
+      height: 282px;
+    }
   }
