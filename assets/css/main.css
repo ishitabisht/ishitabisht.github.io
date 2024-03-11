@@ -2320,23 +2320,41 @@ button,
     .posts article .linkedStoryBoardSample .image img {
       width: 90%;
     }
+    .header-content-about-description {
+      padding: 1rem;
+    }
   }
   @media screen and (max-width: 1024px) {
     .posts article .linkedStoryBoardSample .image img {
       width: 415px !important;
     }
+    .header-content-about-description {
+      padding: 1rem;
+    }
   }
   @media screen and (max-width: 768px) {
+    .header-content-about-description {
+      padding: 1rem;
+    }
     .posts article .linkedStoryBoardSample .image img {
       width: 324px !important;
     }
   }
   @media screen and (max-width: 480px) {
+    .header-content-description .image-container {
+      margin: 0 auto;
+    }
+    .client-logo img {
+      width: 100%;
+    }
     .posts article .linkedStoryBoardSample .image img {
       width: 324px !important;
     }
     #banner .image img {
       height: 282px;
+    }
+    .header-content-about-description {
+      padding: 0;
     }
   }
 
