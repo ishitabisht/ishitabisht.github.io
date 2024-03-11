@@ -2400,3 +2400,6 @@ button,
     margin: 0 auto;
     width: 75%;
   }
+  .bullet-point-container ul li {
+    padding: 0.4rem;
+  }
