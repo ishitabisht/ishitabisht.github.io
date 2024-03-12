@@ -2357,6 +2357,9 @@ button,
     .header-content-about-description {
       padding: 0;
     }
+    .profile-designation {
+      font-size: 18px !important;
+    }
   }
 
   .card {
