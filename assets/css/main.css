@@ -2302,6 +2302,7 @@ button,
     width: 99.375%;
     width: -webkit-calc(100% - 2px);
     width: calc(100% - 2px);
+    pointer-events: none;
   }
   #facebook .Embed,
   ._aand,
@@ -2420,4 +2421,7 @@ button,
   }
   .bullet-point-container ul li {
     padding: 0.4rem;
+  }
+  #socialMedia a {
+    text-decoration: none;
   }
