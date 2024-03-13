@@ -323,7 +323,7 @@
 						<div class="features">
 							<article class="card p-2 socialMedia-card myWorkArticleCard" href="#socialMedia" onclick="scrollToSection('socialMedia')">
 						
-									<span class="icon fa-gem"></span>
+								<span class="icon solid fa-hashtag"></span>
 								<div class="content">
 									<h3>Social Media</h3>
 									<p>Welcome to the dynamic realm of social media, where brands discover boundless
@@ -336,7 +336,7 @@
 								
 							</article>
 							<article class="card p-2 Graphicbrief-card myWorkArticleCard" href="#graphicBrief" onclick="scrollToSection('graphicBrief')">
-								<span class="icon solid fa-paper-plane"></span>
+								<span class="icon solid fa-pencil-alt"></span>
 								<div class="content">
 									<h3>Graphic Briefs </h3>
 									<p>Ensuring brands stay true to themselves is key, and that's where my role shines.
@@ -347,10 +347,10 @@
 										projects.</p>
 								</div>
 							</article>
-							<article class="card p-2 contentManagement-card myWorkArticleCard">
-								<span class="icon solid fa-rocket"></span>
+							<article class="card p-2 contentManagement-card myWorkArticleCard" onclick="navigateTo('contentCreation.html')">
+								<span class="icon solid fa-cogs"></span>
 								<div class="content">
-									<h3>Content Management</h3>
+									<h3>Content Creation – From Ideation to Execution!</h3>
 									<p>In the dynamic whirlwind of my journey at a thriving PR agency, I've encountered a fascinating array of clients, each
 										with their own compelling story. From championing social causes to entertaining events, I've delved into a wide
 										range of campaigns. Get ready to embark on a journey where every idea comes to life, every story unfolds, and every
@@ -358,7 +358,7 @@
 									</div>
 							</article>
 							<article class="card p-2 eventManagement-card myWorkArticleCard">
-								<span class="icon solid fa-signal"></span>
+								<span class="icon solid fa-calendar-alt"></span>
 								<div class="content">
 									<h3>Event Management & Online Promotions</h3>
 									<p>Where Brands Shine Bright: From crafting unforgettable experiences to sparking
@@ -394,6 +394,9 @@
 		  if (section) {
 			section.scrollIntoView({ behavior: 'smooth' });
 		  }
+		}
+		function navigateTo(url) {
+			window.location.href = url;
 		}
 		</script>
 </body>
