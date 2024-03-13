@@ -80,8 +80,7 @@
 													bounds and every story leaves an indelible mark. </p>
 											</div>
 											<p class="d-block d-sm-none">
-												Welcome to my world of vibrant communication! I'm Ishita Bisht, a
-												seasoned professional blending Social Media Marketing, Public
+												Welcome to my world of vibrant communication! I'm a seasoned professional blending Social Media Marketing, Public
 												Relations, Corporate Communication, and Global Business Management.
 											</p>
 										</div>
@@ -268,7 +267,7 @@
 					</div>
 
 					<!-- Section -->
-					<section>
+					<section id="graphicBrief">
 						<header class="major">
 							<h2>Graphic Briefs</h2>
 						</header>
@@ -322,8 +321,9 @@
 							<h2>A Quick Glance Over My Work</h2>
 						</header>
 						<div class="features">
-							<article>
-								<span class="icon fa-gem"></span>
+							<article class="card p-2 socialMedia-card" href="#socialMedia" onclick="scrollToSection('socialMedia')">
+						
+									<span class="icon fa-gem"></span>
 								<div class="content">
 									<h3>Social Media</h3>
 									<p>Welcome to the dynamic realm of social media, where brands discover boundless
@@ -332,8 +332,10 @@
 										captivating video production and engaging copywriting, each element is crafted
 										to elevate a brand's presence and captivate their audience's imagination!</p>
 								</div>
+								
+								
 							</article>
-							<article>
+							<article class="card p-2 Graphicbrief-card" href="#graphicBrief" onclick="scrollToSection('graphicBrief')">
 								<span class="icon solid fa-paper-plane"></span>
 								<div class="content">
 									<h3>Graphic Briefs </h3>
@@ -345,7 +347,7 @@
 										projects.</p>
 								</div>
 							</article>
-							<article>
+							<article class="card p-2 contentManagement-card">
 								<span class="icon solid fa-rocket"></span>
 								<div class="content">
 									<h3>Content Management</h3>
@@ -355,7 +357,7 @@
 										message resonates, making a lasting impact everywhere.</p>
 									</div>
 							</article>
-							<article>
+							<article class="card p-2 eventManagement-card">
 								<span class="icon solid fa-signal"></span>
 								<div class="content">
 									<h3>Event Management & Online Promotions</h3>
@@ -386,7 +388,14 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script async="" src="//www.instagram.com/embed.js"></script>
-
+	<script>
+		function scrollToSection(sectionId) {
+		  var section = document.getElementById(sectionId);
+		  if (section) {
+			section.scrollIntoView({ behavior: 'smooth' });
+		  }
+		}
+		</script>
 </body>
 
 </html>

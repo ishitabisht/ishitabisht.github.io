@@ -2373,7 +2373,7 @@ button,
   }
   
   .card:hover {
-    box-shadow: 0 12px 20px rgba(245, 106, 106, 0.6);
+    box-shadow: 0 0 40px rgba(245, 106, 106, 0.6);
     transform: translateY(-4px);
   }
   
@@ -2427,4 +2427,11 @@ button,
   }
   #socialMedia a {
     text-decoration: none;
+    border: none;
+  }
+  .socialMedia-card,
+  .eventManagement-card,
+  .contentManagement-card,
+  .Graphicbrief-card {
+    flex-direction: row !important;
   }
