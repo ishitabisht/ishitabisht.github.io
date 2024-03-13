@@ -5,6 +5,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+:root {
+  --primary-accent-color: #f56a6a; 
+  --secondary-accent-color: #ed4c4c;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1711,7 +1716,7 @@ button,
       .features article .icon {
         height: 6em;
         line-height: 6em;
-        margin: 0 0 1.5em 0;
+        margin: 0 auto;
         width: 6em; }
         .features article .icon:before {
           font-size: 1.5rem; }
@@ -2342,6 +2347,18 @@ button,
     }
   }
   @media screen and (max-width: 480px) {
+    .container .myWorkArticleCard {
+      flex-direction: column !important;
+    }
+    .myWorkArticleCard h3 {
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .myWorkArticleCard .icon {
+      margin: 0 auto;
+    }
+
     .header-content-description .image-container {
       margin: 0 auto;
     }
@@ -2429,9 +2446,10 @@ button,
     text-decoration: none;
     border: none;
   }
-  .socialMedia-card,
-  .eventManagement-card,
-  .contentManagement-card,
-  .Graphicbrief-card {
+  .myWorkArticleCard {
     flex-direction: row !important;
+  }
+
+  .myWorkArticleCard h3 {
+   color: var(--primary-accent-color);
   }
