@@ -2468,3 +2468,6 @@ button,
     margin: 0 15px;
     cursor: pointer;
 }
+#projectContainer .instagram-media {
+  pointer-events: all;
+}
