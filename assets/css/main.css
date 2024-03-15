@@ -2377,6 +2377,9 @@ button,
     .profile-designation {
       font-size: 18px !important;
     }
+    .myWorkArticleCard .actions {
+      justify-content: center;
+    }
   }
 
   .card {
