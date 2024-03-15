@@ -31,6 +31,7 @@
 					<section id="projectContainer">
 						<div class="container">
 							<header class="major text-center">
+								<span  onclick="navigateTo('index.html')" class="icon solid fa-home home-icon"></span>
 								<h2>Content Creation – From Ideation to Execution!</h2>
 							</header>
 							<!-- Section - Project 1-->
@@ -125,7 +126,7 @@
 												</header>
 												<ul>
 													<li>Attained a highly engaged audience of mixed age groups as it
-														garnered 80,000+ reach, and more than 65,000 views</li>
+														garnered <span class="color-accent">80,000+ </span>reach, and more than <span class="color-accent">65,000 views</span></li>
 													<li>Featured by EEAS (European External Action Services) on their
 														Earth Day release</li>
 													<li>Applauded by all the other Member States, and governing bodies
@@ -214,7 +215,13 @@
 			</section>
 				</div>
 
-
+				<section id="backHome">
+					<div class="row text-center">
+						<ul class="actions justify-content-center">
+							<li><a class="button" onclick="navigateTo('index.html')" >Return To Home Screen</a></li>
+						</ul>
+					</div>
+				</section>
 		</div>
 	</div>
 
@@ -227,6 +234,11 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script async="" src="//www.instagram.com/embed.js"></script>
+	<script>
+		function navigateTo(url) {
+			window.location.href = url;
+		}
+	</script>
 </body>
 
 </html>

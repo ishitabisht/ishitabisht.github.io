@@ -2312,7 +2312,7 @@ button,
   #facebook .Embed,
   ._aand,
   .Content.EmbedFrame,
-  .instagram-media.instagram-media-rendered {
+  #socialMedia .instagram-media.instagram-media-rendered {
     height: 300px !important;
   }
   .Embed .Header,
@@ -2459,3 +2459,12 @@ button,
   .font-size-18 {
     font-size: 18px !important;
   }
+  .home-icon {
+    border: 2px solid var(--primary-accent-color);
+    border-radius: 50%; /* This makes the border circular */
+    padding: 5px; /* Adjust padding as needed */
+    color: var(--primary-accent-color); /* Set the color of the icon */
+    font-size: 24px;
+    margin: 0 15px;
+    cursor: pointer;
+}
